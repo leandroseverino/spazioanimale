@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document of Site 
+ * Author: Leandro Severino - ProfessionalIT
+ * Created in 2010-08-20 */
+* { margin: 0px; padding: 0px; font-family: arial, verdana; }
+body { background-color: #0B0B0D; color: white; }
+#social_panel { height: 35px; }
+#social_panel_itens { float: right; text-align: right; width: 50%; }
+#header { height: 268px; }
+#header_content { height: 100%; }
+#menu_panel { background-color: #d45500; height: 40px; text-align: center;}
+#menu_content { height: 100%; text-align: center;}
+#menu_content ul { list-style: none; margin: 0px auto; padding-left: 17px; }
+#menu_content ul li { background: url('../images/garrinha.png') no-repeat top left; display: inline; margin: 0px auto; }
+#menu_content ul li a { color: black; font-size: 13px; font-weight: bold; text-decoration: none; height: 25px; width: 115px; display: block; float:left; padding-top: 07px; padding-bottom: -2px; margin-top: 05px; margin-right: 04px; }
+#menu_content ul li a:hover { background: url('../images/menu_bkg_sel.png') no-repeat; color: white; }
+#page { height: 1230px; min-height: 1230px; }
+#page_content { height: 100%; }
+#top_content { height: 540px; width: 100%; }
+#slideshow_panel { float: left; height: 100%; text-align: left; width: 810px; }
+#amigos_pet_title { background: url('../images/amigos_pet_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: 20px; margin-left: 17px; padding: 07px 0px; text-align:center; width: 200px; }
+#img_amigos_pet { margin-left: 100px; margin-top: 20px; }
+#amigos_pet_page_title { background: url('../images/amigos_pet_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: -39px; margin-left: 100px; padding: 07px 0px; padding-left: 50px; text-align:left; width: 230px; }
+#table_amigos { margin: 0px auto; width: 55%; }
+#table_amigos td { height: 180px; padding-bottom: 20px; text-align: center; width: 215px; }
+#table_amigos td img { border: 05px solid #eee; }
+#table_amigos td span { font-weight: bold; display: block; }
+#table_amigos td span a { color: white; text-decoration: none; }
+#table_amigos td span a:hover { color: orange; }
+#table_amigos td h5 a { color: white; text-decoration: none; }
+#table_amigos td h5 a:hover { color: orange; }
+#quem_somos_title { background: url('../images/quem_somos_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: 20px; margin-left: 100px; padding: 07px 0px; text-align:center; width: 200px; }
+#equipe_title { background: url('../images/equipe_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: 20px; margin-left: 100px; padding: 07px 0px; text-align:center; width: 200px; }
+#localizacao_title { background: url('../images/localizacao_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: 20px; margin-left: 100px; padding: 07px 0px; text-align:center; width: 200px; }
+#atendimento_title { background: url('../images/atendimento_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: 20px; margin-left: 100px; padding: 07px 0px; text-align:center; width: 200px; }
+#contato_title { background: url('../images/quem_somos_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: 20px; margin-left: 100px; padding: 07px 0px; text-align:center; width: 200px; }
+#contact_panel { margin: 30px auto 0; text-align: center; width: 50%; }
+#slideshow { height: 400px; width: 530px; border: 01px solid #eee; margin: 0px auto; }
+#slide_list { height: 60px; width: 530px; border: 01px solid #eee; margin: 0px auto; margin-top: 03px; }
+#service_panel { float: left; height: 100%; width: 290px; }
+#servicos_title { background: url('../images/servicos_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin:0px auto; margin-top: 20px; padding: 07px 0px; text-align:center; width: 230px; }
+#servico_page_title { background: url('../images/servicos_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: 20px; margin-left: 100px; padding: 07px 0px; text-align:center; width: 230px; }
+#servico_page_content { background: url("https://lh3.googleusercontent.com/-640awUGpJik/ThruNUrjqtI/AAAAAAAAAX0/1-3LlDGSzX4/cao.png") 80% -11% no-repeat; }
+#servico_page_content_footer { background: url("https://lh3.googleusercontent.com/-W7UbuKYp9OA/ThwYLPLu3mI/AAAAAAAAAYs/BFkupi_U8mM/gatonovelo.png") top center no-repeat; height: 270px; margin-top: 10px; width: 100%;}
+#services { background: url('../images/services_border.png') no-repeat; height: 350px; margin: 0px auto; text-align: left; width: 230px; }
+#services ul { list-style: none; margin-left: 10px; padding-top: 20px; }
+#services ul li { background: url('../images/patinha.png') no-repeat top left; font-size: 14px; font-weight: bold; padding-left: 30px; margin-top: 10px; }
+#services ul li:hover { color: orange; }
+#search_panel { float: right; margin-top: -120px; width: 290px; }
+#pesquisa_title { background: url('../images/pesquisa_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin:0px auto; margin-top: 20px; padding: 07px 0px; text-align:center; width: 230px; }
+#sponsored_panel { float: right; margin-top: -20px;  width: 290px; }
+#sponsored_panel img { border: none; }
+#apoio_title { background: url('../images/apoio_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin:0px auto; margin-top: 20px; padding: 07px 0px; text-align:center; width: 230px; }
+#sponsored_panel img { display: block; margin: 0px auto; padding-bottom: 20px; }
+#payment_methods_panel { color: yellow; font-size: 14px; font-weight: bold; margin:0px auto; margin-top: 20px; text-align: center; display:block; }
+#bottom_content { min-height:590px; width: 100%; }
+#offers_panel { float: left; height: 100%; text-align: left; width: 405px; }
+#offers_panel #panel_widget_classificados { height: 250px; padding-top: 100px; }
+#offers_panel #widget_classificados { height: 245px; list-style: none; overflow: hidden; }
+#offers_panel #widget_classificados li { height: 240px; overflow: hidden; }
+#classificados_title { background: url('../images/classificados_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: 20px; margin-left: 17px; padding: 07px 0px; text-align:center; width: 200px; }
+#promotions_panel { float: left; height: 100%; text-align: left; width: 405px; }
+#promocoes_title { background: url('../images/promocoes_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin-top: 20px; margin-left: 17px; padding: 07px 0px; text-align:center; width: 200px; }
+#panel_aviso_promocoes { text-align: center; }
+#videos_panel { float: left; height: 100%; width: 810px; }
+#channel_panel { float: left; height: 100%; width: 290px; }
+#channel_panel ul { color: white; list-style: none; }
+#channel_panel ul li { display: block; text-align: center; width: 90px; margin: 0px auto; margin-top: 05px; }
+#channel_panel ul li span { color: white; font-size: 12px; font-weight: bold; }
+#channel_panel ul li img { border: none; }
+#canais_title { background: url('../images/canais_bkg.png') no-repeat; color:black; font-size: 15px; font-weight: bold; height: 30px; margin:0px auto; margin-top: 20px; padding: 07px 0px; text-align:center; width: 200px; }
+#table_equipe { margin: 0px auto; margin-top: 30px; width: 55%; }
+#table_equipe td { height: 180px; padding-bottom: 20px; text-align: center; width: 215px; }
+#table_equipe td img { border: 05px solid #eee; }
+#table_equipe td span { font-weight: bold; }
+#table_equipe td span a { color: white; text-decoration: none; }
+#table_equipe td span a:hover { color: orange; }
+#table_equipe td h5 a { color: white; text-decoration: none; }
+#table_equipe td h5 a:hover { color: orange; }
+#panel_img { display: table; margin: 0px auto; margin-top: 6.4%; text-align: center; vertical-align: bottom; width: 100%; }
+#panel_img img { margin: 0px auto; }
+#panel_records { font-weight: bold; margin: 0px auto; margin-top: 15px; text-align: center; width: 70%; }
+#pagina { text-align: center; }
+#pagina p { margin-top:30px; margin-bottom:30px; text-align:justify; text-indent:140px; }
+#not_found_panel { background: url('https://lh5.googleusercontent.com/-DAkbf_X5rqA/Tinpl-70eMI/AAAAAAAAAtA/QMmQuvn1lrY/s512/garrona.png') 50% 0% no-repeat; height: 100%; }
+#not_found_panel h1 { margin-top: 50px; margin-bottom: 20px; text-align: center; }
+#not_found_panel p { color: yellow; font-size: 20px; font-weight: bold; margin-top: 50px; text-align: center; }
+#author_panel { height: 100%; text-align: center; }
+#author_panel h1 { margin-left: 100px; margin-top: 30px; text-align: left; }
+#author_panel h2, h3, h4 { font-size: 22px; margin-left: 100px; margin-top: 30px; text-align: left; }
+#author_panel img { border: none; margin: 0px auto; }
+#author_panel p { margin-top: 10px; margin-left: 100px; margin-right: 100px; text-align: justify; text-indent: 40px; }
+#author_panel p a { color: orange; font-weight: bold; text-decoration: none; }
+#author_panel p a:hover { color: yellow; text-decoration: underline; }
+#footer { background-color: #d92117; display:table; height: 50px; margin-top: 30px; }
+#footer p { color: white; font-size: 14px; font-weight: bold; padding-top: 07px; text-align: center; text-shadow:0px 5px 9px #000; }
+#footer ul { list-style: none; margin: 10px 0; text-align: center; }
+#footer ul li { display: inline; margin: 0px auto; padding-left: 10px; }
+#footer ul li a { color: #F77777; font-size: 13px; font-weight: bold; text-decoration: none; height: 25px; width: 115px; }
+#footer ul li a:hover { color: orange; }
+/* Generic classes */
+.active { color: white; }
+.full_width { width: 100%; }
+.centered_content { margin: 0px auto; text-align: center; width: 1100px; }
+.no_content { font-weight: bold; padding-top: 200px; text-align: center; }
+.all_records { margin: 0 auto 0 100px; }
+.all_records a { color: white; font-weight: bold; text-decoration: none; }
+.all_records a:hover { color: orange; }
+.bkg_yellow { background: url('../images/menu_bkg.png') no-repeat; }
+.bkg_pink { background: url('../images/menu_bkg_pink.png') no-repeat; }
+.bkg_green { background: url('../images/menu_bkg_green.png') no-repeat; }
+.bkg_blue { background: url('../images/menu_bkg_blue.png') no-repeat; }
+.bkg_red { background: url('../images/menu_bkg_red.png') no-repeat; }
+.titles_second_level { padding-left: 17px; }
+.titles_third_level { margin-left: 100px; }
+.comuns_panel { background: url('../images/fundo_div.png') no-repeat; height: 460px; margin-left: 17px; width: 367px; }
+.classficado_home_item { display: block; margin: 0px auto; padding-top: 10px; text-align: center; width:90%; }
+.classficado_home_item img { border: 05px solid #eee; }
+.classficado_home_item h5 a { color: white; text-decoration: none; }
+.classficado_home_item h5 a:hover { color: orange; }
+.classficado_home_item span { font-size: 14px; }
+.promocao_home_item { display: block; margin: 0px auto; padding-top: 10px; text-align: center; width:90%; }
+.promocao_home_item img { border: 05px solid #eee; }
+.promocao_home_item h5 a { color: white; text-decoration: none; }
+.promocao_home_item h5 a:hover { color: orange; }
+.margin_left_100px { margin-left: 100px; }
+.margin_left_100px li { list-style: square; margin-left: 50px; }
+.agradecimento_panel { display:block; font-weight:bold; font-size:18px; margin:0px auto; margin-top:250px; text-align:center; }
+.admin_picture { margin: 0px auto !important; margin-top: 20px !important; text-align: center; }
+.admin_picture_description { display: block; margin: 0px auto; margin-top: 10px; text-align: center; }
