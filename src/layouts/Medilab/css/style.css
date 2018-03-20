@@ -138,7 +138,7 @@ banner
 #banner{
 	background: url('../img/fachada.jpg') no-repeat fixed;
 	background-size: cover;
-	min-height: 650px;
+	min-height: 750px;
 	position: relative;
 }
 .bg-color{
@@ -207,7 +207,7 @@ services
 cta-1
 ***************************************/
 .schedule-tab {
-	background-color: #0CB8B6;
+	background-color: darkslategray;
 	float: left;
 }
 .medi-info{
