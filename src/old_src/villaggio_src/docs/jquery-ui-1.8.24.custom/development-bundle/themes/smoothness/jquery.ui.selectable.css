@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*!
  * jQuery UI Selectable 1.8.24
  *
@@ -8,3 +9,15 @@
  * http://docs.jquery.com/UI/Selectable#theming
  */
 .ui-selectable-helper { position: absolute; z-index: 100; border:1px dotted black; }
+=======
+/*!
+ * jQuery UI Selectable 1.8.24
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Selectable#theming
+ */
+.ui-selectable-helper { position: absolute; z-index: 100; border:1px dotted black; }
+>>>>>>> refs/remotes/origin/master

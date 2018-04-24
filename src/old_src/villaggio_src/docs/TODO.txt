@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 O posicionamento do que falta para terminarmos o site: 
 
 1)   Implementar as melhorias visuais, as decorações e enfeites, os embelezamentos do site.
@@ -22,3 +23,29 @@ O form de contato acredito que todos os campos sejam obrigatórios, mas o de res
 7)   Ver técnicas SEO
 8)   Ver framework de comentários.
 9)   Ver Google Analytics.
+=======
+O posicionamento do que falta para terminarmos o site: 
+
+1)   Implementar as melhorias visuais, as decorações e enfeites, os embelezamentos do site.
+
+Neste item estaremos trabalhando no decorrer da próxima semana, colocando no ar o que for feito (e te avisando) para você acompanhar e dar o seu feedback, sua opinião.
+
+2)   Tratar os fotos e implementar o SlideShow.
+
+Idem ao item 01.
+
+3)   Ver contigo se vai ter link para Facebook e Twitter.
+
+Coloquei no layout do site um ícone do Facebook e um ícone do Twitter como sugestão. Se for para permanecer estes ícones você precisa me passar quais as contas/endereços do Facebook e do Twitter. Acho que pelo menos do Facebook era importante ter, visto que quase todos os sites hoje tem um link para o Facebook. 
+Outra coisa legal para implementar é um botão curtir no site, o que tu achas ?
+
+4)   Ver quais campos são de preenchimento obrigatório nos forms de contato e no cadastro de reserva.
+
+O form de contato acredito que todos os campos sejam obrigatórios, mas o de reserva não sei quais são, quais são ?
+
+5)   Ver as configurações de e-mail para o contato.php e reserva.php
+6)   Ver capcha nos forms e destacar os campos obrigatórios.
+7)   Ver técnicas SEO
+8)   Ver framework de comentários.
+9)   Ver Google Analytics.
+>>>>>>> refs/remotes/origin/master

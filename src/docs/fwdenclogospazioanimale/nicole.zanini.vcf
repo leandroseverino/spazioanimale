@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 BEGIN:VCARD
 VERSION:2.1
 N:;nicole.zanini
 FN:nicole.zanini
 REV:20161014T134221Z
 END:VCARD
+=======
+BEGIN:VCARD
+VERSION:2.1
+N:;nicole.zanini
+FN:nicole.zanini
+REV:20161014T134221Z
+END:VCARD
+>>>>>>> refs/remotes/origin/master
