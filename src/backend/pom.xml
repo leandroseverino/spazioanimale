@@ -125,7 +125,20 @@
 		  	<groupId>org.postgresql</groupId>
 		  	<artifactId>postgresql</artifactId>
 		  <version>9.4-1206-jdbc42</version>
-		</dependency>			
+		</dependency>
+
+		<!-- Eclipse Collections -->
+		<dependency>
+			<groupId>org.eclipse.collections</groupId>
+			<artifactId>eclipse-collections-api</artifactId>
+			<version>9.2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.collections</groupId>
+			<artifactId>eclipse-collections</artifactId>
+			<version>9.2.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
