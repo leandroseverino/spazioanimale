@@ -5,7 +5,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import br.com.maxigenios.websystem.api.domain.Funcionario;
 
-@Transactional(readOnly = true)
+//@Transactional(readOnly = true)
+
 public interface FuncionarioRepository extends JpaRepository<Funcionario, Long> {
 
 	Funcionario findByCpf(String cpf);

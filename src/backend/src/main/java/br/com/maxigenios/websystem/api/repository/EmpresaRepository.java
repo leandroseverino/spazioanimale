@@ -7,7 +7,7 @@ import br.com.maxigenios.websystem.api.domain.Empresa;
 
 public interface EmpresaRepository extends JpaRepository<Empresa, Long> {
 	
-	@Transactional(readOnly = true)
-	Empresa findByCnpj(String cnpj);
+	//@Transactional(readOnly = true)
+	//Empresa findByCnpj(String cnpj);
 
 }

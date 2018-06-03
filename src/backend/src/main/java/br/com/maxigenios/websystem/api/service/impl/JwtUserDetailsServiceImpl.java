@@ -2,7 +2,9 @@ package br.com.maxigenios.websystem.api.service.impl;
 
 import java.util.Optional;
 
+import br.com.maxigenios.websystem.api.domain.AuthUser;
 import br.com.maxigenios.websystem.api.security.JwtUserFactory;
+import br.com.maxigenios.websystem.api.service.AuthUserService;
 import br.com.maxigenios.websystem.api.service.FuncionarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -18,12 +20,12 @@ import br.com.maxigenios.websystem.api.service.FuncionarioService;
 public class JwtUserDetailsServiceImpl implements UserDetailsService {
 
 	@Autowired
-	private FuncionarioService service;
+	private AuthUserService service;
 	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		
-		Optional<Funcionario> usuario = service.findByEmail(username);
+		Optional<AuthUser> usuario = service.findByEmail(username);
 		
 		if (usuario.isPresent()) {
 			return JwtUserFactory.create(usuario.get());

@@ -53,7 +53,7 @@ public class AuthUser implements Serializable {
     @Id
     @Column(name = "id", nullable = false)
     @GeneratedValue(generator = "seq_auth_user", strategy = GenerationType.SEQUENCE)
-    private Integer id;
+    private Long id;
     
     @Column(name = "password", nullable = false, length = 128)
     private String password;
@@ -103,11 +103,11 @@ public class AuthUser implements Serializable {
     public AuthUser() {
     }
 
-    public AuthUser(Integer id) {
+    public AuthUser(Long id) {
         this.id = id;
     }
 
-    public AuthUser(Integer id, String password, boolean isSuperuser, String username, String firstName, String lastName, String email, boolean isStaff, boolean isActive, Date dateJoined) {
+    public AuthUser(Long id, String password, boolean isSuperuser, String username, String firstName, String lastName, String email, boolean isStaff, boolean isActive, Date dateJoined) {
         this.id = id;
         this.password = password;
         this.isSuperuser = isSuperuser;
@@ -120,11 +120,11 @@ public class AuthUser implements Serializable {
         this.dateJoined = dateJoined;
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

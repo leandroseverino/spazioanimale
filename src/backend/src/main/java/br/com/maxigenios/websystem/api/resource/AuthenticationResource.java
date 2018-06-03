@@ -56,7 +56,7 @@ public class AuthenticationResource {
 	 * @throws AuthenticationException
 	 */
 	@PostMapping
-	public ResponseEntity<Response<TokenDTO>> generateTokenJwt(@Valid @RequestBody JwtAuthenticationDTO authenticationDTO,
+	public ResponseEntity<Response<TokenDTO>> generateTokenJwt(@Valid @RequestBody JwtAuthenticationDTO authenticationDto,
 			BindingResult result) throws AuthenticationException {
 		Response<TokenDTO> response = new Response<TokenDTO>();
 
@@ -66,12 +66,12 @@ public class AuthenticationResource {
 			return ResponseEntity.badRequest().body(response);
 		}
 
-		log.info("Gerando token para o email {}.", authenticationDTO.getEmail());
+		log.info("Gerando token para o email {}.", authenticationDto.getEmail());
 		Authentication authentication = authenticationManager.authenticate(
-				new UsernamePasswordAuthenticationToken(authenticationDTO.getEmail(), authenticationDTO.getSenha()));
+				new UsernamePasswordAuthenticationToken(authenticationDto.getEmail(), authenticationDto.getSenha()));
 		SecurityContextHolder.getContext().setAuthentication(authentication);
 
-		UserDetails userDetails = userDetailsService.loadUserByUsername(authenticationDTO.getEmail());
+		UserDetails userDetails = userDetailsService.loadUserByUsername(authenticationDto.getEmail());
 		String token = jwtTokenUtil.getToken(userDetails);
 		response.setData(new TokenDTO(token));
 
